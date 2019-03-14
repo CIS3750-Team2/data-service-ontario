@@ -1,0 +1,21 @@
+{
+  "name": "data-service-ontario",
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "repository": "git@github.com:CIS3750-Team2/data-service-ontario.git",
+  "author": "EvilKanoa <kanoa@kanoa.ca>",
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "node": ">=10",
+    "yarn": ">= 1.13"
+  },
+  "scripts": {
+    "start": "NODE_ENV=production nodemon src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "7.0.0",
+    "node-fetch": "2.3.0",
+    "nodemon": "1.18.10"
+  }
+}
