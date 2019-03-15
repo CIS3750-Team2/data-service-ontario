@@ -1,3 +1,3 @@
 module.exports = async (state) => {
-    // TODO: Perform initialization required here
+    // TODO: Perform any initialization required here
 };
